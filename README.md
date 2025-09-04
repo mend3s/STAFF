@@ -69,10 +69,10 @@ Toda a documentação do projeto, incluindo o **Levantamento de Requisitos** e o
 
 Este projeto é um desenvolvimento da materia de Desenvolvimento Agil na Universidade Federal do Paraná, está sendo desenvolvido pela **Equipe X-Men**,.
 
-Davi Leme de Castro Nascimento Batista - 2102323
-Eduardo Mendes - 2432994
-João Bosco Salviano de Carvalho - 1915452
-Taynara Luísa Pecorario - 1914154
+* Davi Leme de Castro Nascimento Batista - 2102323
+* Eduardo Mendes - 2432994
+* João Bosco Salviano de Carvalho - 1915452
+* Taynara Luísa Pecorario - 1914154
 
 ---
 
