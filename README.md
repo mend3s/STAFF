@@ -13,10 +13,9 @@ Uma plataforma moderna e intuitiva de gestão de Recursos Humanos, projetada par
 1.  [Visão Geral](#-visão-geral)
 2.  [✨ Funcionalidades](#-funcionalidades)
 3.  [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-4.  [🚀 Como Executar o Projeto](#-como-executar-o-projeto)
-5.  [📄 Documentação](#-documentação)
-6.  [🤝 Contribuidores](#-contribuidores)
-7.  [📜 Licença](#-licença)
+4.  [📄 Documentação](#-documentação)
+5.  [🤝 Contribuidores](#-contribuidores)
+6.  [📜 Licença](#-licença)
 
 ---
 
