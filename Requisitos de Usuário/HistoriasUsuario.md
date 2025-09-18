@@ -181,9 +181,12 @@ A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas.
       <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como <b>Funcionário</b>, quero solicitar uma ausência escolhendo tipo, datas e descrição, e anexar arquivos quando necessário, para formalizar minha ausência.</td>
       <td style="border-style:solid;border-width:1px;text-align:left;vertical-align:middle">
         <ol>
+          <li>O funcionário pode escolher o tipo de ausência (férias, licença médica, outros) em um menu suspenso.</li>
           <li>Campos obrigatórios devem ser preenchidos.</li>
-          <li>Upload obrigatório para tipos como Atestado Médico.</li>
+          <li>É possível anexar arquivos (PDF, JPG, PNG) com tamanho máximo definido.</li>
+          <li>O sistema valida datas e impede sobreposição com ausências previamente aprovadas.</li>
           <li>Solicitação registrada com status inicial "Pendente".</li>
+          <li> O funcionário recebe uma notificação ao ter sua solicitação aprovada ou rejeitada.</li>
         </ol>
       </td>
       <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
@@ -280,6 +283,22 @@ A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas.
       </td>
       <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
       <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF35</td>
+      <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US20</td>
+      <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como <b>Administrador</b>, quero importar múltiplos funcionários a partir de um arquivo Excel ou CSV para agilizar o cadastro de grandes equipes de uma só vez.</td>
+      <td style="border-style:solid;border-width:1px;text-align:left;vertical-align:middle">
+        <ol>
+          <li>O sistema aceita arquivos nos formatos .xlsx e .csv.</li>
+          <li>Há um modelo de planilha disponível para download como referência de formato.</li>
+          <li>O sistema valida os dados antes de finalizar a importação e exibe uma pré-visualização para revisão.</li>
+          <li>Linhas com erros são destacadas e não impedem a importação das linhas válidas.</li>
+          <li>Ao término, o sistema exibe um resumo com a quantidade de registros importados e erros encontrados.</li>
+        </ol>
+      </td>
+      <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
+      <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF36</td>
       <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
     </tr>
   </tbody>
