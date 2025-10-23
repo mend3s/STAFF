@@ -1,0 +1,3 @@
+A Integração Contínua (CI) é a prática de automatizar a mesclagem (merge) e os testes do código de vários desenvolvedores em um repositório central, várias vezes ao dia. O objetivo é detectar erros de integração o mais rápido possível.
+Nesse processo, as branches (ramificações) são essenciais, pois permitem que os desenvolvedores criem novas funcionalidades ou corrijam bugs em linhas isoladas, sem afetar o código principal (como a main ou develop).
+O Pull Request (PR) é o "portão" para essa integração. Ele é a solicitação formal para mesclar a branch de trabalho de volta à principal. Sua importância está em disparar os testes automatizados da CI e, crucialmente, permitir a revisão de código por pares, garantindo que apenas código validado e de qualidade seja integrado.
